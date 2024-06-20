@@ -1,0 +1,11 @@
+{
+    "overall_status": "KILLED_RUNTIME_STDOUT_DIFFER",
+    "mutant": "MUTATE_CSHARP_ACTIVATED_MUTANT20:38",
+    "failed_target_backends": [
+        {
+            "backend": "GO",
+            "mutant_status": "KILLED_RUNTIME_STDOUT_DIFFER"
+        }
+    ],
+    "program_generator": "fuzz-d"
+}
