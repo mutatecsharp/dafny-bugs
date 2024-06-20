@@ -1,0 +1,72 @@
+{
+    "overall_status": "RUNTIME_TIMEOUT",
+    "failed_target_backends": [
+        {
+            "backend": "PYTHON",
+            "program_status": "RUNTIME_TIMEOUT"
+        },
+        {
+            "backend": "CSHARP",
+            "program_status": "RUNTIME_TIMEOUT"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "program_status": "RUNTIME_TIMEOUT"
+        }
+    ],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": -15
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 143
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": -15
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "hmxen\ntrue\ntrue\n290\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\nfalse\n-711\n219\n949\n290\nhmxen\ntrue\n1\n'n'\ntrue\n12\nhmxen\n1\ntrue\n957\ntrue\nfalse\n830\nfalse\nfalse\n965\n287\nnjs\ntrue\ntrue\n's'\n4\ntrue\n4\ntrue\nfuspatcil\ntrue\nnjs\n1\n100\n290\ntrue\ntrue\n-1\n-288\ntrue\n3\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\nfalse\n4\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\n1\ntrue\ntrue\n290\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": ""
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "6\novdhmu\ntrue\ntrue\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\n'l'\nvaiuecm\n1\nfalse\ntrue\n139\ntrue\n290\n-610\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ntrue\n6\ntrue\ntrue\n'v'\novdhmu\n942\nfalse\n735\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\novdhmu\n1\n'v'\n1\n'v'\ntrue\nfalse\ntrue\ntrue\nfalse\nfalse\n2\n3\n0\nfalse\nfalse\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "6\novdhmu\ntrue\ntrue\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\n'l'\nvaiuecm\n1\nfalse\ntrue\n139\ntrue\n290\n-610\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ntrue\n6\ntrue\ntrue\n'v'\novdhmu\n942\nfalse\n735\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\novdhmu\n1\n'v'\n1\n'v'\ntrue\nfalse\ntrue\ntrue\nfalse\nfalse\n2\n3\n0\nfalse\nfalse\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "6\novdhmu\ntrue\ntrue\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\n'l'\nvaiuecm\n1\nfalse\ntrue\n139\ntrue\n290\n-610\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ntrue\n6\ntrue\ntrue\n'v'\novdhmu\n942\nfalse\n735\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\novdhmu\n1\n'v'\n1\n'v'\ntrue\nfalse\ntrue\ntrue\nfalse\nfalse\n2\n3\n0\nfalse\nfalse\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "6\novdhmu\ntrue\ntrue\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\n'l'\nvaiuecm\n1\nfalse\ntrue\n139\ntrue\n290\n-610\n-2\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ntrue\n6\ntrue\ntrue\n'v'\novdhmu\n942\nfalse\n735\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\novdhmu\n1\n'v'\n1\n'v'\ntrue\nfalse\ntrue\ntrue\nfalse\nfalse\n2\n3\n0\nfalse\nfalse\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

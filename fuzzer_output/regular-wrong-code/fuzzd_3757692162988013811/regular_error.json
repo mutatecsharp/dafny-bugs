@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "36\nfalse\ntrue\n3\ntrue\nfalse\n36\n-689\n665\nfalse\ntrue\n409\n-44\nfalse\nfalse\ntrue\nfalse\ntrue\n0\ntrue\ntrue\nr\n1\n5\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\n0\n0\n'b'\ntrue\ntrue\n0\nfalse\n2\nfalse\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "2\nfalse\ntrue\n3\ntrue\nfalse\n2\n-689\n665\nfalse\ntrue\n409\n-44\nfalse\nfalse\ntrue\nfalse\ntrue\n0\ntrue\ntrue\nr\n1\n5\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\n0\n0\n'b'\ntrue\ntrue\n0\nfalse\n2\nfalse\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "2\nfalse\ntrue\n3\ntrue\nfalse\n2\n-689\n665\nfalse\ntrue\n409\n-44\nfalse\nfalse\ntrue\nfalse\ntrue\n0\ntrue\ntrue\nr\n1\n5\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\n0\n0\n'b'\ntrue\ntrue\n0\nfalse\n2\nfalse\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "2\nfalse\ntrue\n3\ntrue\nfalse\n2\n-689\n665\nfalse\ntrue\n409\n-44\nfalse\nfalse\ntrue\nfalse\ntrue\n0\ntrue\ntrue\nr\n1\n5\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\n0\n0\n'b'\ntrue\ntrue\n0\nfalse\n2\nfalse\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

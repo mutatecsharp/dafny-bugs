@@ -1,0 +1,64 @@
+{
+    "overall_status": "RUNTIME_EXITCODE_NON_ZERO",
+    "failed_target_backends": [
+        {
+            "backend": "CSHARP",
+            "program_status": "RUNTIME_EXITCODE_NON_ZERO"
+        }
+    ],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": -6
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "true\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n2\ntrue\ntrue\ntrue\n3\nfalse\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "true\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n2\ntrue\ntrue\ntrue\n3\nfalse\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "true\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n2\ntrue\ntrue\ntrue\n3\nfalse\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": "Unhandled exception. System.OverflowException: Value was either too large or too small for an Int32.\n   at System.Numerics.BigInteger.op_Explicit(BigInteger value)\n   at Dafny.MultiSet`1.get_Count()\n   at Dafny.MultiSet`1.IsProperSubsetOf(IMultiSet`1 th, IMultiSet`1 other)\n   at _module.__default._Main(ISequence`1 __noArgsParameter)\n   at __CallToMain.<>c__DisplayClass0_0.<Main>b__0()\n   at Dafny.Helpers.WithHaltHandling(Action action)\n   at __CallToMain.Main(String[] args)\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "432\n-21\n984\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\n9\ntrue\ntrue\n432\n-21\n984\n-979\n'l'\n'v'\n430\ntrue\n1\n'o'\nfalse\n899\ntrue\n-433\ntrue\ntrue\n-753\n44\ntrue\n575\ntrue\n-726\ntrue\ntrue\n'k'\n9\nfalse\ntrue\ntrue\nfalse\n0\n1\n432\n432\ntrue\n432\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ny\n63\n984\ny\ntrue\ntrue\ntrue\n-538\n3\n'f'\n'f'\n'f'\ntrue\n2\ntrue\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "432\n-21\n984\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\n9\ntrue\ntrue\n432\n-21\n984\n-979\n'l'\n'v'\n430\ntrue\n1\n'o'\nfalse\n899\ntrue\n-433\ntrue\ntrue\n-753\n44\ntrue\n575\ntrue\n-726\ntrue\ntrue\n'k'\n9\nfalse\ntrue\ntrue\ntrue\n0\n1\n432\n432\ntrue\n432\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ny\n63\n984\ny\ntrue\ntrue\ntrue\n-538\n3\n'f'\n'f'\n'f'\ntrue\n2\ntrue\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "432\n-21\n984\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\n9\ntrue\ntrue\n432\n-21\n984\n-979\n'l'\n'v'\n430\ntrue\n1\n'o'\nfalse\n899\ntrue\n-433\ntrue\ntrue\n-753\n44\ntrue\n575\ntrue\n-726\ntrue\ntrue\n'k'\n9\nfalse\ntrue\ntrue\ntrue\n0\n1\n432\n432\ntrue\n432\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ny\n63\n984\ny\ntrue\ntrue\ntrue\n-538\n3\n'f'\n'f'\n'f'\ntrue\n2\ntrue\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "432\n-21\n984\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\ntrue\ntrue\n9\ntrue\ntrue\n432\n-21\n984\n-979\n'l'\n'v'\n430\ntrue\n1\n'o'\nfalse\n899\ntrue\n-433\ntrue\ntrue\n-753\n44\ntrue\n575\ntrue\n-726\ntrue\ntrue\n'k'\n9\nfalse\ntrue\ntrue\nfalse\n0\n1\n432\n432\ntrue\n432\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ny\n63\n984\ny\ntrue\ntrue\ntrue\n-538\n3\n'f'\n'f'\n'f'\ntrue\n2\ntrue\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

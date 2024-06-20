@@ -1,0 +1,64 @@
+{
+    "overall_status": "RUNTIME_TIMEOUT",
+    "failed_target_backends": [
+        {
+            "backend": "JAVASCRIPT",
+            "program_status": "RUNTIME_TIMEOUT"
+        }
+    ],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": -15
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "truxk\ntrue\n1\n'g'\n-610\n1\ntrue\nfalse\ntrue\n-658\n-610\n-712\ntrue\ng\ntrue\ntruxk\ntruxk\n896\ntrue\n'q'\n-158\n316\n-654\n-610\n1\nfalse\ntrue\n1\nfalse\n0\ntrue\ntrue\n2\ntrue\ntrue\n2\n2\n2\n2\n2\n2\n0\n2\n2\n2\n2\n4\n2\n2\n2\n1\n2\n2\n1\n2\n2\n610\n2\n4\n3\ntrue\ntrue\ntrue\ntrue\nfalse\n1\n1\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\n-610\ntrue\nfalse\nfalse\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "truxk\ntrue\n1\n'g'\n-610\n1\ntrue\nfalse\ntrue\n-658\n-610\n-712\ntrue\ng\ntrue\ntruxk\ntruxk\n896\ntrue\n'q'\n-158\n316\n-654\n-610\n1\nfalse\ntrue\n1\nfalse\n0\ntrue\ntrue\n2\ntrue\ntrue\n2\n2\n2\n2\n2\n2\n0\n2\n2\n2\n2\n4\n2\n2\n2\n1\n2\n2\n1\n2\n2\n610\n2\n4\n3\ntrue\ntrue\ntrue\ntrue\nfalse\n1\n1\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\n-610\ntrue\nfalse\nfalse\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "truxk\ntrue\n1\n'g'\n-610\n1\ntrue\nfalse\ntrue\n-658\n-610\n-712\ntrue\ng\ntrue\ntruxk\ntruxk\n896\ntrue\n'q'\n-158\n316\n-654\n-610\n1\nfalse\ntrue\n1\nfalse\n0\ntrue\ntrue\n2\ntrue\ntrue\n2\n2\n2\n2\n2\n2\n0\n2\n2\n2\n2\n4\n2\n2\n2\n1\n2\n2\n1\n2\n2\n610\n2\n4\n3\ntrue\ntrue\ntrue\ntrue\nfalse\n1\n1\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\n'g'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\nfalse\ntrue\n-610\ntrue\nfalse\nfalse\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": ""
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

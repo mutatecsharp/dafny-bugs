@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "spiw\ntrue\nfalse\n-668\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n'n'\ntrue\ntrue\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\ntrue\n580\ntrue\ntrue\ntrue\n548\ntrue\ntrue\n376\n87\ntrue\n'w'\n-257\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nspiwdddddddddddddddddddddddddd\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\n-272\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\nfalse\ntrue\nnalyols\ntrue\ntrue\n-210\n0\n-2\ntrue\nfalse\nfalse\n1\ntrue\n1\n1\ntrue\n0\ntrue\nfalse\nfalse\nfalse\nfalse\n'n'\n1\n2\nfalse\nfalse\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "spiw\ntrue\nfalse\n-668\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n'n'\ntrue\ntrue\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\ntrue\n580\ntrue\ntrue\ntrue\n548\ntrue\ntrue\n376\n87\ntrue\n'w'\n-257\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nspiwdddddddddddddddddddddddddd\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\n-272\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\nfalse\ntrue\nnalyols\ntrue\ntrue\n-210\n0\n-2\ntrue\nfalse\nfalse\n1\ntrue\n1\n1\ntrue\n0\ntrue\nfalse\nfalse\nfalse\nfalse\n'n'\n1\n2\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "spiw\ntrue\nfalse\n-668\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n'n'\ntrue\ntrue\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\ntrue\n580\ntrue\ntrue\ntrue\n548\ntrue\ntrue\n376\n87\ntrue\n'w'\n-257\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nspiwdddddddddddddddddddddddddd\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\n-272\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\nfalse\ntrue\nnalyols\ntrue\ntrue\n-210\n0\n-2\ntrue\nfalse\nfalse\n1\ntrue\n1\n1\ntrue\n0\ntrue\nfalse\nfalse\nfalse\nfalse\n'n'\n1\n2\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "spiw\ntrue\nfalse\n-668\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n'n'\ntrue\ntrue\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\ntrue\n580\ntrue\ntrue\ntrue\n548\ntrue\ntrue\n376\n87\ntrue\n'w'\n-257\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nspiwdddddddddddddddddddddddddd\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\n-272\n'n'\n'n'\n'n'\n'n'\n'w'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'n'\n'g'\nfalse\ntrue\nnalyols\ntrue\ntrue\n-210\n0\n-2\ntrue\nfalse\nfalse\n1\ntrue\n1\n1\ntrue\n0\ntrue\nfalse\nfalse\nfalse\nfalse\n'n'\n1\n2\nfalse\nfalse\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

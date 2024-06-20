@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "dcti\n797\ntrue\n-4\ntrue\noeg\nfalse\nfalse\ntrue\ntrue\n1\n'q'\ntrue\n371\n'g'\n371\n371\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\n-4\ntrue\n1\nfalse\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "dcti\n797\ntrue\n-4\ntrue\noeg\nfalse\nfalse\ntrue\ntrue\n1\n'q'\ntrue\n371\n'g'\n371\n371\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\n-4\ntrue\n1\nfalse\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "dcti\n797\ntrue\n-4\ntrue\noeg\nfalse\nfalse\ntrue\ntrue\n1\n'q'\ntrue\n371\n'g'\n371\n371\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\n-4\ntrue\n1\nfalse\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "dcti\n797\ntrue\n-4\ntrue\noeg\nfalse\nfalse\ntrue\ntrue\n1\n'q'\ntrue\n371\n'g'\n371\n371\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\n-4\ntrue\n1\nfalse\ntrue\ntrue\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nfalse\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nk\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-63\n660\n763\n917\ntrue\n1\n194\ntrue\n100\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\n5\ntrue\n2\n5\ntrue\n100\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\n-1\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\ntrue\ntrue\n1\ntrue\ntrue\ntrue\nervymfer\ntrue\ntrue\n-1\ntrue\n1\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nfalse\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nk\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-63\n660\n763\n917\ntrue\n1\n194\ntrue\n100\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\n5\ntrue\n2\n5\ntrue\n100\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\n-1\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\ntrue\ntrue\n1\ntrue\ntrue\ntrue\nervymfer\ntrue\ntrue\n-1\ntrue\n1\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nfalse\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nk\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-63\n660\n763\n917\ntrue\n1\n194\ntrue\n100\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\n5\ntrue\n2\n5\ntrue\n100\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\n-1\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\ntrue\ntrue\n1\ntrue\ntrue\ntrue\nervymfer\ntrue\ntrue\n-1\ntrue\n1\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nfalse\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\nk\n-5\n-343\n-686\n-1010317528381898832992872454684672\n-1372\n-1715\n-2058\n-2401\n-2744\n-3087\n-3430\n1020741508155708953936734198713937555585526041477774054118951747584\n-4116\n-4459\n-4802\n1\n-5488\n-63\n660\n763\n917\ntrue\n1\n194\ntrue\n100\ntrue\ntrue\n1\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n1\n5\ntrue\n2\n5\ntrue\n100\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\n-1\nnegiseoisqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\ntrue\ntrue\n1\ntrue\ntrue\ntrue\nervymfer\ntrue\ntrue\n-1\ntrue\n1\ntrue\ntrue\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

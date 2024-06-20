@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "-474\ntrue\ntrue\ntrue\ntrue\n-264\n9\n409\ntrue\nfalse\ntrue\n1\n-474\n4\ntrue\n0\nidi\ntrue\ntrue\ntrue\n-474\nfalse\npsiuxumem\ntrue\n1\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n-353\n1\ntrue\ntrue\ntrue\ntrue\n-474\n-474\n'v'\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "-474\ntrue\ntrue\ntrue\ntrue\n-264\n9\n409\ntrue\nfalse\ntrue\n1\n-474\n4\ntrue\n0\nidi\ntrue\ntrue\ntrue\n-474\ntrue\npsiuxumem\ntrue\n1\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n-353\n1\ntrue\ntrue\ntrue\ntrue\n-474\n-474\n'v'\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "-474\ntrue\ntrue\ntrue\ntrue\n-264\n9\n409\ntrue\nfalse\ntrue\n1\n-474\n4\ntrue\n0\nidi\ntrue\ntrue\ntrue\n-474\ntrue\npsiuxumem\ntrue\n1\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n-353\n1\ntrue\ntrue\ntrue\ntrue\n-474\n-474\n'v'\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "-474\ntrue\ntrue\ntrue\ntrue\n-264\n9\n409\ntrue\nfalse\ntrue\n1\n-474\n4\ntrue\n0\nidi\ntrue\ntrue\ntrue\n-474\nfalse\npsiuxumem\ntrue\n1\n1\n'v'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n-353\n1\ntrue\ntrue\ntrue\ntrue\n-474\n-474\n'v'\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

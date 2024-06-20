@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\n882\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\nfalse\ntrue\ntrue\ntrue\n125\nfalse\ntrue\ntrue\nfalse\n697\ntrue\ntrue\ntrue\ntrue\n514\n918\n0\nfalse\n-72\nfalse\n498\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\nfalse\n507\nxoneswoop\ntrue\n9\nfalse\n-97\n1\nfalse\ntrue\n1\n1\ntrue\ntrue\nfalse\nadpce\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n3\ntrue\ntrue\ntrue\n1\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\n882\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\ntrue\ntrue\ntrue\ntrue\n125\nfalse\ntrue\ntrue\nfalse\n697\ntrue\ntrue\ntrue\ntrue\n514\n918\n0\nfalse\n-72\nfalse\n498\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\nfalse\n507\nxoneswoop\ntrue\n9\nfalse\n-97\n1\nfalse\ntrue\n1\n1\ntrue\ntrue\nfalse\nadpce\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n3\ntrue\ntrue\ntrue\n1\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\n882\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\ntrue\ntrue\ntrue\ntrue\n125\nfalse\ntrue\ntrue\nfalse\n697\ntrue\ntrue\ntrue\ntrue\n514\n918\n0\nfalse\n-72\nfalse\n498\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\nfalse\n507\nxoneswoop\ntrue\n9\nfalse\n-97\n1\nfalse\ntrue\n1\n1\ntrue\ntrue\nfalse\nadpce\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n3\ntrue\ntrue\ntrue\n1\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\n882\ntrue\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'o'\n'e'\n'o'\n'o'\ntrue\ntrue\ntrue\ntrue\n125\nfalse\ntrue\ntrue\nfalse\n697\ntrue\ntrue\ntrue\ntrue\n514\n918\n0\nfalse\n-72\nfalse\n498\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\nfalse\n507\nxoneswoop\ntrue\n9\nfalse\n-97\n1\nfalse\ntrue\n1\n1\ntrue\ntrue\nfalse\nadpce\n1\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n3\ntrue\n3\ntrue\ntrue\ntrue\n1\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

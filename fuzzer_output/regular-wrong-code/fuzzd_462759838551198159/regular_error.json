@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\n1\n2\n983\ntrue\ntrue\ntrue\ntrue\n615\n2\n693\ntrue\n367\ntrue\nuqjj\ntrue\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\nfalse\n'y'\ntrue\ntrue\nfalse\ntrue\nfalse\ntrue\n-493\n-493\nfalse\ntrue\n983\n983\nfalse\n1\ntrue\n1\ntrue\n-82140\n983\n1\n5\n1\n2\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\n1\n2\n983\ntrue\ntrue\ntrue\ntrue\n615\n2\n693\ntrue\n367\ntrue\nuqjj\ntrue\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\nfalse\n'y'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n-493\n-493\nfalse\ntrue\n983\n983\nfalse\n1\ntrue\n1\ntrue\n-82140\n983\n1\n5\n1\n2\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\n1\n2\n983\ntrue\ntrue\ntrue\ntrue\n615\n2\n693\ntrue\n367\ntrue\nuqjj\ntrue\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\nfalse\n'y'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n-493\n-493\nfalse\ntrue\n983\n983\nfalse\n1\ntrue\n1\ntrue\n-82140\n983\n1\n5\n1\n2\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\n1\n2\n983\ntrue\ntrue\ntrue\ntrue\n615\n2\n693\ntrue\n367\ntrue\nuqjj\ntrue\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\n983\n983\n1\ntrue\ntrue\nfalse\n'y'\ntrue\ntrue\nfalse\ntrue\nfalse\ntrue\n-493\n-493\nfalse\ntrue\n983\n983\nfalse\n1\ntrue\n1\ntrue\n-82140\n983\n1\n5\n1\n2\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

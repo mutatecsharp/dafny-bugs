@@ -1,0 +1,4 @@
+Fuzzing with seed: -5020337960566651329
+Generated ast
+Interpreting Dafny AST
+Completed interpreting Dafny AST. Output stored in fuzz_d_generation/interpret_out.txt

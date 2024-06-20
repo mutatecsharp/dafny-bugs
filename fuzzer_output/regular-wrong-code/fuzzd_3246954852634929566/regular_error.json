@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "301\n2\n2\nfalse\n289\nfalse\ntrue\n360\n0\n2\n288\n280\n-129\nfalse\ntrue\ntrue\ntrue\ntrue\ncyqvbuvx\ntrue\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\n'u'\ntrue\n129\nfalse\ntrue\ntrue\n'k'\n'v'\n'k'\n'k'\n'u'\n'k'\n'k'\n'k'\n'p'\n'k'\n'u'\n'k'\n'k'\n'k'\n'k'\n'k'\n129\nfalse\ntrue\ntrue\n1\n427\n427\n3\n427\n854\n3\n427\n427\ntrue\nfalse\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\n1\n1\nfalse\ntrue\n4\n-129\n'u'\nfalse\nfalse\ntrue\ntrue\ntrue\nfalse\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "301\n2\n2\nfalse\n289\nfalse\ntrue\n360\n0\n2\n288\n280\n-129\nfalse\ntrue\ntrue\ntrue\ntrue\ncyqvbuvx\ntrue\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\n'u'\ntrue\n129\nfalse\ntrue\ntrue\n'k'\n'v'\n'k'\n'k'\n'u'\n'k'\n'k'\n'k'\n'p'\n'k'\n'u'\n'k'\n'k'\n'k'\n'k'\n'k'\n129\nfalse\ntrue\ntrue\n1\n427\n427\n3\n427\n854\n3\n427\n427\ntrue\nfalse\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\n1\n1\nfalse\ntrue\n4\n-129\n'u'\nfalse\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "301\n2\n2\nfalse\n289\nfalse\ntrue\n360\n0\n2\n288\n280\n-129\nfalse\ntrue\ntrue\ntrue\ntrue\ncyqvbuvx\ntrue\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\n'u'\ntrue\n129\nfalse\ntrue\ntrue\n'k'\n'v'\n'k'\n'k'\n'u'\n'k'\n'k'\n'k'\n'p'\n'k'\n'u'\n'k'\n'k'\n'k'\n'k'\n'k'\n129\nfalse\ntrue\ntrue\n1\n427\n427\n3\n427\n854\n3\n427\n427\ntrue\nfalse\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\n1\n1\nfalse\ntrue\n4\n-129\n'u'\nfalse\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "301\n2\n2\nfalse\n289\nfalse\ntrue\n360\n0\n2\n288\n280\n-129\nfalse\ntrue\ntrue\ntrue\ntrue\ncyqvbuvx\ntrue\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\nlxgelocyqvbuvx\n'u'\ntrue\n129\nfalse\ntrue\ntrue\n'k'\n'v'\n'k'\n'k'\n'u'\n'k'\n'k'\n'k'\n'p'\n'k'\n'u'\n'k'\n'k'\n'k'\n'k'\n'k'\n129\nfalse\ntrue\ntrue\n1\n427\n427\n3\n427\n854\n3\n427\n427\ntrue\nfalse\nfalse\ntrue\nfalse\ntrue\ntrue\ntrue\n1\n1\nfalse\ntrue\n4\n-129\n'u'\nfalse\nfalse\ntrue\ntrue\ntrue\nfalse\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

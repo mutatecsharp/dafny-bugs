@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\nfalse\n1\n-935\nfalse\nfalse\nfalse\n'j'\ntrue\npttjivi\n1\ntrue\n0\n100\ntrue\ntrue\ntrue\n1\n1\n1\n2\n1\ntrue\ntrue\ntrue\n11\nfalse\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\nfalse\n1\n-935\nfalse\ntrue\nfalse\n'j'\ntrue\npttjivi\n1\ntrue\n0\n100\ntrue\ntrue\ntrue\n1\n1\n1\n2\n1\ntrue\ntrue\ntrue\n11\nfalse\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\nfalse\n1\n-935\nfalse\ntrue\nfalse\n'j'\ntrue\npttjivi\n1\ntrue\n0\n100\ntrue\ntrue\ntrue\n1\n1\n1\n2\n1\ntrue\ntrue\ntrue\n11\nfalse\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "false\nfalse\nfalse\nfalse\nfalse\ntrue\nfalse\n1\n-935\nfalse\ntrue\nfalse\n'j'\ntrue\npttjivi\n1\ntrue\n0\n100\ntrue\ntrue\ntrue\n1\n1\n1\n2\n1\ntrue\ntrue\ntrue\n11\nfalse\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

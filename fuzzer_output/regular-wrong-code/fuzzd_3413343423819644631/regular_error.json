@@ -1,0 +1,64 @@
+{
+    "overall_status": "RUNTIME_TIMEOUT",
+    "failed_target_backends": [
+        {
+            "backend": "JAVASCRIPT",
+            "program_status": "RUNTIME_TIMEOUT"
+        }
+    ],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": -15
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "-225\n142\ntrue\n0\n218\n-1\n259\n479\n1090\n1308\nbnf\n-74\ntrue\ntrue\n150\n150\ntrue\n1\n-74\n150\ntrue\n'm'\n'm'\n'm'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\n100\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "-225\n142\ntrue\n0\n218\n-1\n259\n479\n1090\n1308\nbnf\n-74\ntrue\ntrue\n150\n150\ntrue\n1\n-74\n150\ntrue\n'm'\n'm'\n'm'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\n100\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "-225\n142\ntrue\n0\n218\n-1\n259\n479\n1090\n1308\nbnf\n-74\ntrue\ntrue\n150\n150\ntrue\n1\n-74\n150\ntrue\n'm'\n'm'\n'm'\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\n100\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": ""
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "true\ntrue\n2\nfalse\ntrue\ntrue\n1\n1230\ntrue\ntrue\nfaliulvksfaliulvks\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n's'\ntrue\ntrue\n1\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\ntrue\n1\ntrue\ntrue\ntrue\n'h'\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n974\n5\ntrue\n1\ntrue\ntrue\ntrue\nfalse\n811\ntrue\n's'\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nfalse\ntrue\ntrue\ntrue\ntrue\n80\n'x'\ntrue\n280\n-551\n-551\ntrue\ntrue\ntrue\n0\nfalse\ntrue\n0\n1\n2\nfalse\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "true\ntrue\n2\nfalse\ntrue\ntrue\n1\n1230\ntrue\ntrue\nfaliulvksfaliulvks\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n's'\ntrue\ntrue\n1\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\ntrue\n1\ntrue\ntrue\ntrue\n'h'\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n974\n5\ntrue\n1\ntrue\ntrue\ntrue\nfalse\n811\ntrue\n's'\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nfalse\ntrue\ntrue\ntrue\ntrue\n80\n'x'\ntrue\n280\n-551\n-551\ntrue\ntrue\ntrue\n0\ntrue\ntrue\n0\n1\n2\nfalse\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "true\ntrue\n2\nfalse\ntrue\ntrue\n1\n1230\ntrue\ntrue\nfaliulvksfaliulvks\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n's'\ntrue\ntrue\n1\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\ntrue\n1\ntrue\ntrue\ntrue\n'h'\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n974\n5\ntrue\n1\ntrue\ntrue\ntrue\nfalse\n811\ntrue\n's'\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nfalse\ntrue\ntrue\ntrue\ntrue\n80\n'x'\ntrue\n280\n-551\n-551\ntrue\ntrue\ntrue\n0\ntrue\ntrue\n0\n1\n2\nfalse\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "true\ntrue\n2\nfalse\ntrue\ntrue\n1\n1230\ntrue\ntrue\nfaliulvksfaliulvks\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n's'\ntrue\ntrue\n1\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\ntrue\n1\ntrue\ntrue\ntrue\n'h'\nfalse\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\n974\n5\ntrue\n1\ntrue\ntrue\ntrue\nfalse\n811\ntrue\n's'\ntrue\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nrfacyd\nwrohtasav\nwrohtasav\nwrohtasav\nwrohtasav\nsrohtasav\nfalse\ntrue\ntrue\ntrue\ntrue\n80\n'x'\ntrue\n280\n-551\n-551\ntrue\ntrue\ntrue\n0\nfalse\ntrue\n0\n1\n2\nfalse\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

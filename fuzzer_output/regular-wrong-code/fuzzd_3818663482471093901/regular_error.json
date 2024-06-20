@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "fdxqrt\nfalse\ntrue\n17\ntrue\ntrue\ntrue\ntrue\nfalse\n-250\ntrue\n38\ntrue\nfdxqrt\nfalse\ntrue\n17\ntrue\n976\n'a'\ntrue\n364\nfalse\ntrue\ntrue\n942\nfdxqrtllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll\nfdxqrt\n'y'\n'y'\nfalse\n'y'\n'y'\nfalse\n'y'\ntrue\n438\n858\n0\n438\n1\n438\n438\n0\n438\n-571\n4\n438\n1\n438\n1\n507\n438\n-438\n-438\n-507\n507\n507\n438\n438\n1230\n438\n438\n862\ntrue\ntrue\ntrue\n2\n2\n623\n0\nfalse\ntrue\ntrue\ntrue\n17\n1\n0\ntrue\n864\n'h'\n-1\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\n'y'\n'h'\n'h'\ntrue\ntrue\ntrue\n0\n5\n1\n0\n1\ntrue\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "fdxqrt\nfalse\ntrue\n17\ntrue\ntrue\ntrue\ntrue\nfalse\n-250\ntrue\n38\ntrue\nfdxqrt\nfalse\ntrue\n17\ntrue\n976\n'a'\ntrue\n364\ntrue\ntrue\ntrue\n942\nfdxqrtllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll\nfdxqrt\n'y'\n'y'\nfalse\n'y'\n'y'\nfalse\n'y'\ntrue\n438\n858\n0\n438\n1\n438\n438\n0\n438\n-571\n4\n438\n1\n438\n1\n507\n438\n-438\n-438\n-507\n507\n507\n438\n438\n1230\n438\n438\n862\ntrue\ntrue\ntrue\n2\n2\n623\n0\nfalse\ntrue\ntrue\ntrue\n17\n1\n0\ntrue\n864\n'h'\n-1\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\n'y'\n'h'\n'h'\ntrue\ntrue\ntrue\n0\n5\n1\n0\n1\ntrue\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "fdxqrt\nfalse\ntrue\n17\ntrue\ntrue\ntrue\ntrue\nfalse\n-250\ntrue\n38\ntrue\nfdxqrt\nfalse\ntrue\n17\ntrue\n976\n'a'\ntrue\n364\ntrue\ntrue\ntrue\n942\nfdxqrtllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll\nfdxqrt\n'y'\n'y'\nfalse\n'y'\n'y'\nfalse\n'y'\ntrue\n438\n858\n0\n438\n1\n438\n438\n0\n438\n-571\n4\n438\n1\n438\n1\n507\n438\n-438\n-438\n-507\n507\n507\n438\n438\n1230\n438\n438\n862\ntrue\ntrue\ntrue\n2\n2\n623\n0\nfalse\ntrue\ntrue\ntrue\n17\n1\n0\ntrue\n864\n'h'\n-1\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\n'y'\n'h'\n'h'\ntrue\ntrue\ntrue\n0\n5\n1\n0\n1\ntrue\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "fdxqrt\nfalse\ntrue\n17\ntrue\ntrue\ntrue\ntrue\nfalse\n-250\ntrue\n38\ntrue\nfdxqrt\nfalse\ntrue\n17\ntrue\n976\n'a'\ntrue\n364\nfalse\ntrue\ntrue\n942\nfdxqrtllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll\nfdxqrt\n'y'\n'y'\nfalse\n'y'\n'y'\nfalse\n'y'\ntrue\n438\n858\n0\n438\n1\n438\n438\n0\n438\n-571\n4\n438\n1\n438\n1\n507\n438\n-438\n-438\n-507\n507\n507\n438\n438\n1230\n438\n438\n862\ntrue\ntrue\ntrue\n2\n2\n623\n0\nfalse\ntrue\ntrue\ntrue\n17\n1\n0\ntrue\n864\n'h'\n-1\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\ntrue\nfalse\ntrue\ntrue\ntrue\n'y'\n'h'\n'h'\ntrue\ntrue\ntrue\n0\n5\n1\n0\n1\ntrue\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}

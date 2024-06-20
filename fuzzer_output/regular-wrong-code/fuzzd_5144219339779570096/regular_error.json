@@ -1,0 +1,59 @@
+{
+    "overall_status": "RUNTIME_STDOUT_DIFFER",
+    "failed_target_backends": [],
+    "program_generator": "fuzz-d",
+    "exit_codes": [
+        {
+            "backend": "GO",
+            "exit_code": 0
+        },
+        {
+            "backend": "PYTHON",
+            "exit_code": 0
+        },
+        {
+            "backend": "CSHARP",
+            "exit_code": 0
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "exit_code": 0
+        }
+    ],
+    "stdout": [
+        {
+            "backend": "GO",
+            "stdout": "false\ntrue\ntrue\ni\ntrue\ntrue\n773\ntrue\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n1\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\n'a'\ntrue\ntrue\ntrue\n-624\n'r'\n951\ntrue\n868\nujuh\ntrue\nnwvoesujuh\n113\ntrue\n664\n-1\ntrue\n536\n495\n1\n0\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\n294\ntrue\n119\ntrue\n-2\ntrue\n-185\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n0\ni\n773\n1\n366\n1\n366\n366\n366\n-92\n-366\n366\n721\n8\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n4\n-366\n166\n-2\n0\n5\nfalse\ni\n1\n1\n366\n1\n366\n366\n366\n-366\n-366\n366\n721\n2\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n1\n-366\n166\n-171\n"
+        },
+        {
+            "backend": "PYTHON",
+            "stdout": "false\ntrue\ntrue\ni\ntrue\ntrue\n773\ntrue\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n1\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\n'a'\ntrue\ntrue\ntrue\n-624\n'r'\n951\ntrue\n868\nujuh\ntrue\nnwvoesujuh\n113\ntrue\n664\n-1\ntrue\n536\n495\n1\n0\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\n294\ntrue\n119\ntrue\n-2\ntrue\n-185\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n0\ni\n773\n1\n366\n1\n366\n366\n366\n-92\n-366\n366\n721\n8\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n4\n-366\n166\n-2\n0\n5\nfalse\ni\n1\n1\n366\n1\n366\n366\n366\n-366\n-366\n366\n721\n2\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n1\n-366\n166\n-171\n"
+        },
+        {
+            "backend": "CSHARP",
+            "stdout": "false\ntrue\ntrue\ni\ntrue\ntrue\n773\ntrue\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n1\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\n'a'\ntrue\ntrue\ntrue\n-624\n'r'\n951\ntrue\n868\nujuh\ntrue\nnwvoesujuh\n113\ntrue\n664\n-1\ntrue\n536\n495\n1\n0\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\n294\ntrue\n119\ntrue\n-2\ntrue\n-185\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n0\ni\n773\n1\n366\n1\n366\n366\n366\n-92\n-366\n366\n721\n8\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n4\n-366\n166\n-2\n0\n5\nfalse\ni\n1\n1\n366\n1\n366\n366\n366\n-366\n-366\n366\n721\n2\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n1\n-366\n166\n-171\n"
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stdout": "false\ntrue\ntrue\ni\ntrue\ntrue\n773\ntrue\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n1\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\n'a'\ntrue\ntrue\ntrue\n-624\n'r'\n951\ntrue\n868\nujuh\ntrue\nnwvoesujuh\n113\ntrue\n664\n-1\ntrue\n536\n495\n1\n0\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\n294\ntrue\n119\ntrue\n-2\ntrue\n-185\n773\n-741\n773\n773\n-617\n-2\n1\n773\n744\n773\n773\n462\n773\n3\n773\n1\n773\n726\n773\n773\n0\ni\n773\n1\n366\n1\n366\n366\n366\n-92\n-366\n366\n721\n8\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n4\n-366\n166\n-2\n0\n5\nfalse\ni\n1\n1\n366\n1\n366\n366\n366\n-366\n-366\n366\n721\n2\n580\n2\n4\n366\n732\n366\n366\n366\n0\n3294\n1\n-366\n166\n-171\n"
+        }
+    ],
+    "stderr": [
+        {
+            "backend": "GO",
+            "stderr": ""
+        },
+        {
+            "backend": "PYTHON",
+            "stderr": ""
+        },
+        {
+            "backend": "CSHARP",
+            "stderr": ""
+        },
+        {
+            "backend": "JAVASCRIPT",
+            "stderr": ""
+        }
+    ]
+}
